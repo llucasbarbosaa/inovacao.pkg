@@ -29,13 +29,13 @@ file_name <- sprintf("%s-%s.log", timestamp, script)
 file_path <- sprintf("%s%s", caminho, file_name)
 
 # Abre log
-lf <- log_open(file_path)
+lf <- logr::log_open(file_path)
 
 # Envia a mensagem msg para o log
-log_print(msg)
+logr::log_print(msg)
 
 # Fecha log
-log_close()
+logr::log_close()
 
 return <- sprintf("Log de %s salvo em %s", script, file_path)
 

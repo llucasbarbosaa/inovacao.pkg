@@ -16,7 +16,6 @@ library(scriptName)
 #'
 #' @examples
 #'
-#'
 log_eventos <- function(caminho, msgs = c(""), script = ""){
 
   # Obter a data atual

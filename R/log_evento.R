@@ -1,5 +1,4 @@
 library(logr)
-library(scriptName)
 
 #' Log Evento - Mensagem Única
 #'
